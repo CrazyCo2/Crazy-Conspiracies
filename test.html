@@ -1,0 +1,102 @@
+<!DOCTYPE>
+<html lang="eng">
+<head><title>Crazy Conspiracies</title>
+<link rel=stylesheet type=text/css href="ccstylesheet.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70512704-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<a href="index.html"><header><img src="logo good copy.png" height=150px width=200px align=left > <center> <h2>
+<script language="JavaScript1.2">
+
+
+
+var message="Crazy Conspiracies!"
+var neonbasecolor="black"
+var neontextcolor="C1FF33"
+var flashspeed=100  //in milliseconds
+
+///No need to edit below this line/////
+
+var n=0
+if (document.all||document.getElementById){
+document.write('')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('')
+}
+else
+document.write(message)
+
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+
+function neon(){
+
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+//eval("document.all.neonlight"+m).style.color=neonbasecolor
+crossref(m).style.color=neonbasecolor
+}
+
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",1500)
+return
+}
+}
+
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+
+
+</script>
+</h2>
+
+<Center> </header></a>
+<nav>
+<a href="dailyconspiracy.html">The Weekly Conspiracy</a><br/><br/>
+<a href="prevart.html">Previous Articles</a><br/><br/>
+
+<a href="forum.html">Forum</a><br/><br/>
+
+
+
+</nav>
+
+
+<article>Many believe the world that we believe in is just a mirage. The real world is covered up by government lies and alien control. All throughout the internet there are conspiracies about almost anything. Some of them are absolutely insane, while others are actually plausible. This website aims to highlight some of the funniest, scariest, and most widely known conspiracy theories on the internet. Enjoy!<br/><br/>
+
+<center><img src="confirm.jpg" style= height:"200px"; width"200px";><center>
+
+<center><img src="logo good copy.png" style= height:"200px"; width"200px";><center>
+
+
+<script type="text/javascript" src="http://ci3rffcdy6.embed.talkiforum.com/embed/1.js"></script><div style="font-size:80%; text-align:center;" id="ci3rffcdy6t4lk1prm0"></div>
+
+
+</article>
+
+
+
+
+</html>
